@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: thaicomcs1/podinfo:dev-ttfbsfrd
+    image: thaicomcs1/podinfo:dev-t8cb5f4b
     replicaCount: 1
     hpa:
       enabled: false
